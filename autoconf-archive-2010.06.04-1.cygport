@@ -1,0 +1,8 @@
+DESCRIPTION="Collection of reusable Autoconf macros"
+HOMEPAGE="http://www.gnu.org/software/autoconf-archive/"
+SRC_URI="mirror://gnu/autoconf-archive/${P}.tar.bz2"
+
+src_compile() {
+	cd ${B}
+	cygconf
+}
