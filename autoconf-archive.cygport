@@ -1,0 +1,15 @@
+NAME="autoconf-archive"
+VERSION=2012.09.08
+RELEASE=1
+CATEGORY="Devel"
+SUMMARY="Collection of additional Autoconf macros"
+DESCRIPTION="The GNU Autoconf Archive is a collection of more than 450 macros
+for GNU Autoconf that have been contributed as free software by friendly
+supporters of the cause from all over the Internet."
+HOMEPAGE="http://www.gnu.org/software/autoconf-archive/"
+SRC_URI="mirror://gnu/autoconf-archive/${NAME}-${VERSION}.tar.xz"
+
+src_compile() {
+	cd ${B}
+	cygconf
+}
