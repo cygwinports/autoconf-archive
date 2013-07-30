@@ -1,5 +1,5 @@
 NAME="autoconf-archive"
-VERSION=2013.02.02
+VERSION=2013.06.09
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="Collection of additional Autoconf macros"
