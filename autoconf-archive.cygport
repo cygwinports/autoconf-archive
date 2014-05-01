@@ -1,5 +1,5 @@
 NAME="autoconf-archive"
-VERSION=2013.06.09
+VERSION=2014.02.28
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="Collection of additional Autoconf macros"
@@ -8,6 +8,8 @@ for GNU Autoconf that have been contributed as free software by friendly
 supporters of the cause from all over the Internet."
 HOMEPAGE="http://www.gnu.org/software/autoconf-archive/"
 SRC_URI="mirror://gnu/autoconf-archive/${NAME}-${VERSION}.tar.xz"
+
+ARCH=noarch
 
 src_compile() {
 	cd ${B}
