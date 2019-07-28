@@ -1,5 +1,5 @@
 NAME="autoconf-archive"
-VERSION=2017.09.28
+VERSION=2019.01.06
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="Collection of additional Autoconf macros"
